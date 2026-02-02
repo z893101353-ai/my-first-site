@@ -1,10 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">  <!-- 消除之前的lang警告 -->
 <head>
-    <title>嗨可多</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的第一个网站</title>
+    <!-- 以下是美化样式 -->
+    <style>
+        /* 页面整体样式 */
+        body {
+            margin: 0;  /* 去掉默认边距 */
+            padding: 20px;  /* 内边距，让内容不贴边 */
+            font-family: "微软雅黑", "宋体", Arial, sans-serif;  /* 字体更美观 */
+            background-color: #f5f5f5;  /* 浅灰色背景，替代纯白 */
+            color: #333;  /* 文字颜色用深灰色，更护眼 */
+            line-height: 1.6;  /* 行间距，阅读更舒适 */
+        }
+
+        /* 标题样式 */
+        h1 {
+            color: #2c3e50;  /* 深蓝色标题 */
+            text-align: center;  /* 标题居中 */
+            margin-bottom: 30px;  /* 标题下方间距 */
+        }
+
+        /* 段落样式 */
+        p {
+            font-size: 16px;  /* 文字大小 */
+            max-width: 800px;  /* 段落最大宽度，避免太宽 */
+            margin: 0 auto 20px;  /* 段落居中，下方留间距 */
+        }
+
+        /* 链接样式 */
+        a {
+            color: #3498db;  /* 蓝色链接 */
+            text-decoration: none;  /* 去掉默认下划线 */
+        }
+        a:hover {
+            color: #2980b9;  /* 鼠标悬停时变深一点 */
+            text-decoration: underline;  /* 悬停显示下划线 */
+        }
+
+        /* 图片样式（如果有图片） */
+        img {
+            max-width: 100%;  /* 图片自适应宽度 */
+            height: auto;  /* 保持宽高比 */
+            display: block;  /* 图片居中 */
+            margin: 0 auto;
+            border-radius: 8px;  /* 图片圆角 */
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);  /* 轻微阴影，更立体 */
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
-    <p>欢迎来到嗨可多</p>
+<h1>欢迎来到我的网站</h1>
+<p>这是我用 GitHub Pages 搭建的第一个网站！</p>
+<p>点击 <a href="https://github.com/z893101353-ai/my-first-site" target="_blank">这里</a> 查看源码</p>
 </body>
 </html>
